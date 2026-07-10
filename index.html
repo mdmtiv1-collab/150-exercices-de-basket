@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>+150 Basketball Training Videos — Prêts à Appliquer</title>
+<meta name="description" content="Immediate access to the app with +150 complete basketball exercises in video ready to apply. Garantie de 7 jours and exclusive bonuses." />
+<meta property="og:title" content="+150 Basketball Training Videos" />
+<meta property="og:description" content="Planifiez vos entraînements en quelques minutes. Plus d'organisation, de meilleurs résultats." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" />
+
+<link rel="preload" as="image" href="images/hero.jpg" fetchpriority="high">
+
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+
+
+<script>
+  window.pixelId = "YOUR_FRENCH_PIXEL_ID"; // Remplacer par l'ID de pixel de la UTMfy en Français
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xdnmd0lf1o");
+</script>
+
+<script>
+(function () {
+  const POLL_MS = 500;
+  const UTM_SEP = "jLj";          
+  const XCOD_SEP = "hQwK21wXxR"; 
+
+  const STORAGE_KEY = { FB: "lead", google: "lead-google" };
+  
+  function getOrigin(utmSource) {
+    if (!utmSource) return null;
+    const base = utmSource.split(UTM_SEP)[0];
+    return base === "FB" || base === "google" ? base : null;
+  }
+
+  function getLeadIdFromStorage(origin) {
+    const key = STORAGE_KEY[origin];
+    if (!key) return null;
+    try {
+      const raw = localStorage.getItem(key);
+      if (!raw) return null;
+      const obj = JSON.parse(raw);
+      return obj && obj._id ? String(obj._id) : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function resolveLeadId(utmSource, origin) {
+    const prefix = origin + UTM_SEP;
+    if (utmSource && utmSource.startsWith(prefix)) {
+      const id = utmSource.slice(prefix.length);
+      if (id) return id;
+    }
+    return getLeadIdFromStorage(origin);
+  }
+
+  function applyIfNeeded() {
+    const url = new URL(window.location.href);
+    const currentSource = url.searchParams.get("utm_source");
+    const origin = getOrigin(currentSource);
+    if (!origin) return false;
+
+    const id = resolveLeadId(currentSource, origin);
+    if (!id) return false;
+
+    const desired = origin + UTM_SEP + id;
+    let changed = false;
+
+    if (currentSource !== desired) {
+      url.searchParams.set("utm_source", desired);
+      changed = true;
+    }
+
+    const currentXcod = url.searchParams.get("xcod");
+    if (currentXcod) {
+      const parts = currentXcod.split(XCOD_SEP);
+      if (parts[0] !== desired) {
+        parts[0] = desired;
+        url.searchParams.set("xcod", parts.join(XCOD_SEP));
+        changed = true;
+      }
+    }
+
+    if (!changed) return true;
+    window.location.replace(url.toString());
+    return true;
+  }
+
+  if (applyIfNeeded()) return;
+  const interval = setInterval(() => {
+    if (applyIfNeeded()) clearInterval(interval);
+  }, POLL_MS);
+})();
+</script>
+
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #1e293b;
+  background: #ffffff;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  background-image: 
+    radial-gradient(circle at top left, rgba(232, 78, 27, 0.04) 0%, transparent 40%),
+    radial-gradient(circle at center right, rgba(255, 174, 25, 0.03) 0%, transparent 35%);
+  background-attachment: fixed;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer;border:0}
+h1,h2,h3,h4,p{margin:0}
+
+:root {
+  --orange: #e84e1b;
+  --orange-hover: #ff6200;
+  --orange-glow: rgba(232, 78, 27, 0.15);
+  
+  --green: #16a34a;
+  --green-dark: #15803d;
+  --green-glow: rgba(22, 163, 74, 0.2);
+
+  --accent: #d97706;
+  
+  --bg-dark: #ffffff;
+  --bg-surface: #f8fafc;
+  --border: rgba(232, 78, 27, 0.12);
+  
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+
+  --shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --radius-lg: 16px;
+  --radius-md: 10px;
+}
+
+.container{max-width:1140px;margin:0 auto;padding:0 20px}
+.container-sm{max-width:900px;margin:0 auto;padding:0 20px}
+
+/* Top bar */
+.topbar{background:linear-gradient(90deg,var(--orange),#ff3d7f);color:#fff;text-align:center;padding:10px 16px;font-size:14px;font-weight:700;letter-spacing:.3px;display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;box-shadow:0 4px 15px rgba(232, 78, 27, 0.2)}
+.topbar .pulse{width:8px;height:8px;border-radius:50%;background:#fff;box-shadow:0 0 0 0 rgba(255,255,255,.7);animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,255,255,.7)}70%{box-shadow:0 0 0 10px rgba(255,255,255,0)}100%{box-shadow:0 0 0 0 rgba(255,255,255,0)}}
+
+/* Hero */
+.hero{padding:48px 0 32px;text-align:center;background:transparent}
+.eyebrow{display:inline-block;color:var(--accent);font-weight:700;font-size:14px;letter-spacing:.5px;text-transform:uppercase;margin-bottom:18px}
+.hero h1{font-size:clamp(32px, 6vw, 52px);font-weight:900;line-height:1.15;color:#0f172a}
+.hero h1 .orange{color:var(--orange)}
+.hero h1 span.highlight {
+  background: linear-gradient(135deg, var(--orange) 0%, #ff3b6f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero p.sub{margin:18px auto 26px;max-width:680px;color:var(--text-secondary);font-size:15px}
+.hero .hero-img{max-width:850px;margin:24px auto 28px;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-lg);border:1px solid var(--border)}
+.cta{display:inline-block;background:var(--green);color:#fff;font-weight:800;padding:16px 36px;border-radius:999px;text-decoration:none;font-size:16px;box-shadow:0 8px 20px var(--green-glow);transition:transform .15s ease, box-shadow .15s ease}
+.cta:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(34,197,94,0.5)}
+.cta-orange{background:linear-gradient(90deg,var(--orange),var(--orange-hover));box-shadow:0 8px 20px var(--orange-glow)}
+.cta-orange:hover{box-shadow:0 12px 24px rgba(232,78,27,0.5)}
+
+/* Sections */
+section{padding:64px 0}
+.section-alt{background:var(--bg-surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.section-title{text-align:center;max-width:760px;margin:0 auto 40px}
+.section-title .eyebrow{margin-bottom:10px}
+.section-title h2{font-size:clamp(24px,3.6vw,34px);font-weight:900;color:#0f172a;line-height:1.2}
+.section-title h2 span{color:var(--orange)}
+.section-title p{margin-top:12px;color:var(--text-secondary)}
+
+/* Cards grid */
+.grid-3{display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:22px}
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));gap:22px}
+
+.card{background:#ffffff;border:1px solid rgba(226, 232, 240, 0.9);border-top:4px solid var(--orange);border-radius:12px;padding:32px 28px;box-shadow:0 15px 35px -5px rgba(15, 23, 42, 0.08), 0 5px 15px -3px rgba(15, 23, 42, 0.03);transition:transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease}
+.card:hover{transform:translateY(-8px);box-shadow:0 25px 45px -10px rgba(232, 78, 27, 0.16), 0 0 0 1px rgba(232, 78, 27, 0.35);border-color:rgba(232, 78, 27, 0.3)}
+.card:hover .icon-box{transform:scale(1.08)}
+.card ul{list-style:none;margin-top:20px;padding-top:16px;border-top:1px dashed #e2e8f0;display:flex;flex-direction:column;gap:12px}
+.card ul li{font-size:0.88rem;color:var(--text-secondary);position:relative;padding-left:22px;line-height:1.4;text-align:left}
+.card ul li::before{content:'✓';position:absolute;left:0;top:1px;color:#22c55e;font-weight:900;font-size:0.95rem}
+.card:hover{transform:translateY(-4px);border-color:rgba(232, 78, 27, 0.35);box-shadow:var(--shadow-lg)}
+.icon-box{width:48px;height:48px;border-radius:12px;background:rgba(232, 78, 27, 0.08);border:1.5px solid rgba(232, 78, 27, 0.25);color:var(--orange);display:flex;align-items:center;justify-content:center;margin-bottom:18px;box-shadow:inset 0 1px 3px rgba(232, 78, 27, 0.05);transition:transform 0.2s ease}
+.card h3{font-size:18px;font-weight:800;margin-bottom:8px;color:#0f172a}
+.card p{color:var(--text-secondary);font-size:15px;margin-bottom:14px}
+.card ul{list-style:none;padding:0;margin:0}
+.card ul li{padding:6px 0 6px 26px;position:relative;font-size:14.5px;color:var(--text-secondary)}
+.card ul li::before{content:"✓";position:absolute;left:0;top:6px;color:var(--green);font-weight:900}
+
+/* Bénéfices */
+.benefits-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:22px}
+.benefit{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px;transition:transform .15s ease}
+.benefit:hover{transform:translateY(-2px)}
+.benefit h3{font-size:16px;font-weight:800;color:#0f172a;margin-bottom:6px}
+.benefit p{color:var(--text-secondary);font-size:14.5px}
+
+/* Bonus */
+.bonus-card{background:#ffffff;border:1px solid rgba(226, 232, 240, 0.9);border-top:4px solid #22c55e;border-radius:12px;overflow:hidden;box-shadow:0 15px 35px -5px rgba(15, 23, 42, 0.08), 0 5px 15px -3px rgba(15, 23, 42, 0.03);display:flex;flex-direction:column;transition:transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease}
+.bonus-card:hover{transform:translateY(-8px);box-shadow:0 25px 45px -10px rgba(34, 197, 94, 0.14), 0 0 0 1px rgba(34, 197, 94, 0.35);border-color:rgba(34, 197, 94, 0.3)}
+.bonus-card:hover{transform:translateY(-4px);border-color:rgba(232, 78, 27, 0.3)}
+.bonus-card img{aspect-ratio:16/9;object-fit:cover;width:100%}
+.bonus-body{padding:20px}
+.bonus-tag{display:inline-block;background:rgba(255, 174, 25, 0.1);border:1px solid rgba(255, 174, 25, 0.2);color:var(--accent);font-weight:800;font-size:12px;padding:4px 10px;border-radius:999px;margin-bottom:10px}
+.bonus-card h3{font-size:17px;font-weight:800;color:#0f172a;margin-bottom:8px}
+.bonus-card p{color:var(--text-secondary);font-size:14.5px;margin-bottom:14px}
+.bonus-value{font-weight:800;color:#0f172a}
+.bonus-value s{color:var(--text-muted);margin-right:8px;font-weight:700}
+.bonus-value .free{color:var(--green)}
+.bonus-total{text-align:center;margin-top:30px;font-weight:800;color:#0f172a;font-size:18px}
+.bonus-total .free{color:var(--green)}
+
+/* Timer */
+.timer-wrap{text-align:center}
+.timer-label{display:inline-block;background:linear-gradient(90deg,var(--orange),var(--accent));color:#fff;font-weight:800;padding:8px 16px;border-radius:999px;font-size:13px;letter-spacing:.5px;margin-bottom:18px}
+.timer{display:inline-flex;gap:10px;justify-content:center;margin-bottom:8px}
+.timer .box{background:var(--bg-surface);border:1px solid var(--border);color:#0f172a;padding:14px 18px;border-radius:10px;min-width:74px;text-align:center;font-weight:900;font-size:28px;font-variant-numeric:tabular-nums;box-shadow:var(--shadow)}
+.timer .box small{display:block;font-size:11px;font-weight:600;color:var(--text-secondary);margin-top:4px;letter-spacing:.5px}
+
+/* Pricing */
+.pricing{display:grid;grid-template-columns:repeat(auto-fit, minmax(290px, 1fr));gap:24px;margin-top:36px;max-width:850px;margin-left:auto;margin-right:auto}
+.price-card{background:var(--bg-surface);border:1px solid var(--border);border-radius:16px;padding:28px;box-shadow:var(--shadow);position:relative;display:flex;flex-direction:column;transition:transform .15s ease}
+.price-card.popular{border:2px solid var(--orange);box-shadow:0 12px 30px rgba(232, 78, 27, 0.2)}
+.popular-tag{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg,var(--orange),var(--accent));color:#fff;padding:6px 16px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.5px;white-space:nowrap}
+.price-name{font-weight:800;color:#0f172a;font-size:18px;text-align:center}
+.price-save{text-align:center;color:var(--green);font-weight:800;font-size:13px;margin-top:6px}
+.price-num{text-align:center;margin:14px 0 6px}
+.price-num .old{color:var(--text-muted);text-decoration:line-through;font-weight:700;font-size:18px;display:block}
+.price-num .new{font-size:48px;font-weight:900;color:#0f172a;line-height:1}
+.price-num .new.green{color:var(--green)}
+.price-num .unit{display:block;color:var(--text-secondary);font-size:13px;margin-top:4px}
+.price-card ul{list-style:none;padding:0;margin:18px 0 22px}
+.price-card ul li{padding:8px 0 8px 28px;position:relative;font-size:14.5px;color:var(--text-secondary);border-bottom:1px dashed rgba(15, 23, 42, 0.06)}
+.price-card ul li:last-child{border-bottom:0}
+.price-card ul li.ok::before{content:"✓";position:absolute;left:0;top:8px;color:var(--green);font-weight:900}
+.price-card ul li.no{color:var(--text-muted);text-decoration:line-through}
+.price-card ul li.no::before{content:"✕";position:absolute;left:0;top:8px;color:#dc2626;font-weight:900;text-decoration:none}
+.price-cta{display:block;text-align:center;font-weight:800;padding:15px;border-radius:999px;text-decoration:none;width:100%;margin-top:auto;transition:transform .15s ease}
+.price-cta:hover{transform:translateY(-2px)}
+.price-cta.basic{background:#f1f5f9;color:#0f172a;border:1px solid #cbd5e1}
+.price-cta.basic:hover{background:#e2e8f0}
+.price-cta.full{background:linear-gradient(90deg,var(--orange),var(--orange-hover));color:#fff;box-shadow:0 8px 20px var(--orange-glow)}
+.pay-info{text-align:center;color:var(--text-secondary);margin-top:18px;font-size:13px}
+
+/* App Video Presentation */
+.app-video-container {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  border-radius: 36px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+  border: 6px solid var(--border);
+  background: #000000;
+  aspect-ratio: 9 / 16;
+}
+.app-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.carousel-intro {
+  text-align: center;
+  color: var(--text-secondary);
+  max-width: 680px;
+  margin: 0 auto 24px;
+}
+
+
+/* Testimonials */
+.t-card{background:#ffffff;border:1px solid rgba(226, 232, 240, 0.9);border-radius:12px;padding:32px 28px;box-shadow:0 15px 35px -5px rgba(15, 23, 42, 0.08), 0 5px 15px -3px rgba(15, 23, 42, 0.03);position:relative;transition:transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1)}
+.t-card::before{content:'“';position:absolute;top:8px;right:22px;font-size:4.2rem;color:rgba(232, 78, 27, 0.12);font-family:Georgia,serif;line-height:1}
+.t-card:hover{transform:translateY(-6px);box-shadow:0 22px 40px -10px rgba(15, 23, 42, 0.14);border-color:rgba(232, 78, 27, 0.25)}
+.stars{color:var(--accent);font-size:18px;margin-bottom:10px;letter-spacing:2px}
+.t-text{color:var(--text-secondary);font-size:15px;margin-bottom:16px;font-style:italic}
+.t-author{display:flex;align-items:center;gap:12px}
+.t-author img{width:44px;height:44px;border-radius:50%;object-fit:cover}
+.t-author strong{display:block;color:#0f172a;font-size:14.5px}
+.t-author span{color:var(--text-secondary);font-size:13px}
+
+/* Guarantee */
+.guarantee{max-width:760px;margin:0 auto;background:#ffffff;border:1px solid rgba(232, 78, 27, 0.2);border-top:5px solid var(--orange);border-radius:16px;padding:46px 38px;box-shadow:0 20px 40px -15px rgba(232, 78, 27, 0.12), 0 4px 12px rgba(0, 0, 0, 0.04);text-align:center;position:relative;transition:box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease}
+.guarantee:hover{transform:translateY(-4px);box-shadow:0 30px 60px -20px rgba(232, 78, 27, 0.22), 0 0 0 1px rgba(232, 78, 27, 0.4);border-color:rgba(232, 78, 27, 0.55)}
+.guarantee .shield{width:60px;height:60px;border-radius:14px;background:rgba(232, 78, 27, 0.1);color:var(--orange);display:grid;place-items:center;margin:0 auto 14px;font-size:30px}
+.guarantee h3{font-size:22px;font-weight:900;color:#0f172a;margin-bottom:10px}
+.guarantee p{color:var(--text-secondary);margin-bottom:14px}
+.guarantee ul{list-style:none;padding:0;margin:0;display:inline-block;text-align:left}
+.guarantee ul li{padding:6px 0 6px 26px;position:relative;color:var(--text-secondary);font-size:14.5px}
+.guarantee ul li::before{content:"✓";position:absolute;left:0;top:6px;color:var(--green);font-weight:900}
+
+/* FAQ */
+.faq{max-width:780px;margin:0 auto}
+.faq details{background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;margin-bottom:12px;padding:0;overflow:hidden;box-shadow:var(--shadow)}
+.faq summary{list-style:none;cursor:pointer;padding:18px 22px;font-weight:700;color:#0f172a;display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:15.5px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--orange);font-size:24px;font-weight:700;transition:transform .2s}
+.faq details[open] summary::after{content:"–"}
+.faq .answer{padding:0 22px 18px;color:var(--text-secondary);font-size:15px}
+.faq-cta{text-align:center;margin-top:30px}
+
+/* Footer */
+footer{padding:30px 16px;text-align:center;color:#94a3b8;font-size:13.5px;background:#0f172a;border-top:1px solid rgba(255, 255, 255, 0.05)}
+
+/* Modal */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;z-index:999;padding:16px;overflow-y:auto}
+.modal-overlay.show{display:flex}
+.modal{background:var(--bg-surface);border:1px solid var(--border);border-radius:16px;max-width:480px;width:100%;padding:28px 24px;position:relative;box-shadow:0 20px 60px rgba(0,0,0,.6);animation:popin .25s ease}
+@keyframes popin{from{transform:scale(.95);opacity:0}to{transform:scale(1);opacity:1}}
+.modal-close{position:absolute;top:10px;right:14px;background:transparent;font-size:24px;color:var(--text-muted);width:32px;height:32px;border-radius:50%}
+.modal h3{font-size:22px;font-weight:900;color:#0f172a;text-align:center;margin-bottom:10px;line-height:1.25}
+.modal .sub{text-align:center;color:var(--text-secondary);margin-bottom:18px;font-size:15px}
+.modal .sub b{color:var(--orange)}
+.modal ul{list-style:none;padding:0;margin:0 0 18px}
+.modal ul li{padding:6px 0 6px 26px;position:relative;font-size:14.5px;color:var(--text-secondary);border-bottom:1px dashed rgba(15, 23, 42, 0.06)}
+.modal ul li::before{content:"✓";position:absolute;left:0;top:6px;color:var(--green);font-weight:900}
+.modal .urgency{text-align:center;color:var(--accent);font-weight:700;margin-bottom:16px;font-size:14px}
+.modal .btn-primary{display:block;background:var(--green);color:#fff;font-weight:800;padding:15px;border-radius:999px;text-align:center;text-decoration:none;margin-bottom:12px;box-shadow:0 8px 20px var(--green-glow)}
+.modal .btn-primary:hover{background:var(--green-dark);transform:translateY(-1px)}
+.modal .btn-secondary{display:block;text-align:center;color:var(--text-secondary);text-decoration:underline;font-size:14px}
+
+@media (max-width:480px){
+  .topbar { font-size: 11.5px; padding: 6px 12px; }
+  .hero p.sub { font-size: 13px; margin: 14px auto 20px; line-height: 1.45; }
+  .timer .box{min-width:62px;padding:12px 12px;font-size:22px}
+  section{padding:48px 0}
+  .hero{padding:32px 0 16px}
+}
+
+/* Social Proof Live Toasts - Compact Layout */
+.social-proof-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100;
+  pointer-events: none;
+  width: calc(100% - 40px);
+  max-width: 270px;
+}
+.social-proof-toast {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+  padding: 0.6rem 0.9rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  transform: translateY(80px);
+  opacity: 0;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.2), opacity 0.4s ease;
+}
+.social-proof-toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+.toast-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(232, 78, 27, 0.1);
+  border: 1px solid rgba(232, 78, 27, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+.toast-content {
+  flex-grow: 1;
+}
+.toast-title {
+  font-size: 0.78rem;
+  color: #0f172a;
+  margin-bottom: 1px;
+  line-height: 1.2;
+}
+.toast-body {
+  font-size: 0.74rem;
+  color: var(--text-secondary);
+  line-height: 1.2;
+}
+.toast-time {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  display: block;
+  margin-top: 2px;
+}
+@media (max-width: 576px) {
+  .social-proof-container {
+    bottom: 12px;
+    left: 12px;
+    width: calc(100% - 24px);
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topbar" role="banner">
+  <span class="pulse" aria-hidden="true"></span>
+  <span>RÉDUCTION EXCLUSIVE UNIQUEMENT AUJOURD'HUI • <span id="todayDate"></span></span>
+</div>
+
+<header class="hero">
+  <div class="container">
+    <span class="eyebrow">Offre Limitée — Accès Immédiat</span>
+    <h1>Fini de perdre du temps<br><span class="highlight">à planifier les entraînements.</span></h1>
+    <p class="sub"><strong style="color: #e84e1b; font-weight: 800;">Avec +150 exercices de basket en vidéo</strong>, organisés du niveau débutant à avancé, vous choisissez simplement la séance et l'appliquez directement sur le terrain — sans passer des heures à planifier chaque semaine.</p>
+    <div class="hero-img">
+      <img src="images/hero.jpg" alt="+150 Exercices de Basket" width="850" height="638" loading="eager" fetchpriority="high">
+    </div>
+    <a class="cta" href="#inside-app">JE VEUX ACCÉDER MAINTENANT !</a>
+  </div>
+</header>
+
+<section class="section-alt">
+  <div class="container">
+    <div class="section-title">
+      <span class="eyebrow">Contenu Premium</span>
+      <h2>Ce Que Vous Allez Recevoir</h2>
+      <p>Tout ce dont vous avez besoin pour transformer vos entraînements et amener votre équipe au niveau supérieur.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon-box"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2" width="8" height="4" rx="1" ry="1" fill="rgba(232, 78, 27, 0.2)"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2V6a2 2 0 0 1 2 -2h2"/><path d="M9 12l2 2l4 -4"/></svg></div>
+        <h3>Application Complète</h3>
+        <p>+150 exercices de basket complets en vidéo, organisés avec des objectifs clairs, des temps définis et des méthodologies très efficaces.</p>
+        <ul>
+          <li>Exercices progressifs et structurés</li>
+          <li>Accès numérique depuis téléphone, tablette ou ordinateur</li>
+          <li>Prêt à visionner et à appliquer sur le terrain</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="icon-box"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3" stroke="var(--orange)" stroke-width="3"/><circle cx="18.7" cy="8" r="2" fill="var(--orange)" stroke="currentColor" stroke-width="1.5"/><circle cx="13.6" cy="13.2" r="1.5" fill="currentColor"/><circle cx="10.8" cy="10.5" r="1.5" fill="currentColor"/></svg></div>
+        <h3>Exercices Progressifs</h3>
+        <p>Du niveau débutant à avancé, expliqués en vidéo pour que vos joueurs évoluent constamment à chaque entraînement.</p>
+        <ul>
+          <li>Plans étape par étape en vidéo</li>
+          <li>Différents niveaux de difficulté</li>
+          <li>Résultats réels et mesurables</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="icon-box"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" fill="rgba(232, 78, 27, 0.2)"/><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg></div>
+        <h3>Pour Toutes les Équipes</h3>
+        <p>Activités en vidéo adaptables pour les catégories jeunes, juniors et seniors. Idéal pour les entraîneurs et les écoles de basket.</p>
+        <ul>
+          <li>Différents âges et niveaux</li>
+          <li>Académies, clubs et écoles de sport</li>
+          <li>Accès à vie illimité</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <div class="section-title">
+      <span class="eyebrow">Bonus Exclusifs — Valeur 27 €</span>
+      <h2>Obtenez 3 Bonus Incroyables <span style="color:var(--green)">GRATUITEMENT</span> !</h2>
+      <p>Des catégories de vidéos de soutien supplémentaires qui amèneront vos entraînements au niveau professionnel supérieur.</p>
+    </div>
+    <div class="grid-3">
+      <div class="bonus-card">
+        <img src="images/bonus_skills.png" alt="Technique Individuelle en Vidéo" loading="lazy" width="800" height="450" />
+        <div class="bonus-body">
+          <span class="bonus-tag">🎁 BONUS 1</span>
+          <h3>Technique Individuelle en Vidéo</h3>
+          <p>Des routines guidées en vidéo axées sur l'amélioration du dribble, des tirs spéciaux et des feintes de corps isolées pour que vos athlètes s'entraînent individuellement.</p>
+          <div class="bonus-value"><s>Valeur : 12 €</s><span class="free">GRATUIT</span></div>
+        </div>
+      </div>
+      <div class="bonus-card">
+        <img src="images/bonus_defense.png" alt="Défense de Fer en Vidéo" loading="lazy" width="800" height="450" />
+        <div class="bonus-body">
+          <span class="bonus-tag">🎁 BONUS 2</span>
+          <h3>Défense de Fer en Vidéo</h3>
+          <p>Des exercices spécifiques en vidéo conçus pour perfectionner la posture défensive, les déplacements latéraux, l'anticipation et une défense d'équipe solide.</p>
+          <div class="bonus-value"><s>Valeur : 8 €</s><span class="free">GRATUIT</span></div>
+        </div>
+      </div>
+      <div class="bonus-card">
+        <img src="images/bonus_coach.png" alt="Routines de Circuit Physique" loading="lazy" width="800" height="450" />
+        <div class="bonus-body">
+          <span class="bonus-tag">🎁 BONUS 3</span>
+          <h3>Routines de Circuit Physique</h3>
+          <p>Des circuits structurés en vidéo axés sur l'amélioration de la détente verticale de vos joueurs, de leur vitesse d'accélération et de la stabilité de leurs articulations.</p>
+          <div class="bonus-value"><s>Valeur : 7 €</s><span class="free">GRATUIT</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="bonus-total">Total des bonus : <s style="color:#dc2626">27 €</s> — <span class="free">AUJOURD'HUI : GRATUIT !</span></div>
+  </div>
+</section>
+
+<section id="inside-app">
+  <div class="container">
+    <div class="section-title">
+      <span class="eyebrow">Découvrez l'application</span>
+      <h2>Un aperçu de ce que vous allez recevoir</h2>
+    </div>
+    <p class="carousel-intro">De vrais exercices de l'application avec des schémas professionnels, des explications détaillées et des vidéos dynamiques.</p>
+    
+    <div class="app-video-container">
+      <video class="app-video" autoplay loop muted playsinline controls>
+        <source src="videos/video_ingles_pg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <div class="section-title">
+      <span class="eyebrow">Témoignages Réels</span>
+      <h2>Ce Que Disent Nos Clients</h2>
+      <p>Des entraîneurs et des académies transforment déjà leurs séances d'entraînement grâce à notre application.</p>
+    </div>
+    
+      
+      <div class="grid-3">
+        <div class="t-card">
+          <div class="stars">★★★★★</div>
+          <p class="t-text">"Je passais environ 4 heures par semaine à préparer mes entraînements à partir de zéro, sans même savoir si cela fonctionnerait sur le terrain. Aujourd'hui, j'ouvre l'application, je choisis la séance en vidéo et je l'applique directement. J'ai récupéré mes dimanches soir."</p>
+          <div class="t-author"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=150&h=150" alt="Alexandre Gauthier" loading="lazy" /><div><strong>Alexandre Gauthier</strong><span>Entraîneur de Basket Jeunes</span></div></div>
+        </div>
+        <div class="t-card">
+          <div class="stars">★★★★★</div>
+          <p class="t-text">"Mes joueurs en avaient assez de faire toujours les mêmes exercices. Grâce à la variété des vidéos, chaque entraînement semble nouveau — le niveau d'énergie et de concentration de l'équipe a complètement changé dès les premières semaines."</p>
+          <div class="t-author"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=150&h=150" alt="David Henry" loading="lazy" /><div><strong>David Henry</strong><span>Entraîneur Chef d'Académie de Basket</span></div></div>
+        </div>
+        <div class="t-card">
+          <div class="stars">★★★★★</div>
+          <p class="t-text">"Je n'avais pas beaucoup d'expérience dans la création de progressions d'exercices, j'avais peur de faire une erreur avec les plus jeunes. Les vidéos expliquent tout étape par étape, donc même sans être un entraîneur vétéran, j'applique aujourd'hui des entraînements de niveau professionnel."</p>
+          <div class="t-author"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a47e?auto=format&fit=crop&q=80&w=150&h=150" alt="Romain Mercier" loading="lazy" /><div><strong>Romain Mercier</strong><span>Entraîneur et Préparateur Physique</span></div></div>
+        </div>
+      </div>
+</section>
+
+<section id="precios">
+  <div class="container">
+    <div class="timer-wrap">
+      <span class="timer-label">OFFRE LIMITÉE — SE TERMINE DANS :</span>
+      <div class="timer" id="timer" aria-live="polite">
+        <div class="box"><span id="t-h">00</span><small>HEURES</small></div>
+        <div class="box"><span id="t-m">15</span><small>MIN</small></div>
+        <div class="box"><span id="t-s">00</span><small>SEC</small></div>
+      </div>
+    </div>
+    <div class="section-title" style="margin-top:30px">
+      <span class="eyebrow">Investissez dans Votre Équipe</span>
+      <h2>Choisissez Votre Offre</h2>
+    </div>
+    <div class="pricing">
+      <div class="price-card">
+        <div class="price-name">Plan Basique</div>
+        <div class="price-num">
+          <span class="old">10 €</span>
+          <span class="new">5,90 €</span>
+          <span class="unit">paiement unique</span>
+        </div>
+        <ul>
+          <li class="ok">75 Exercices de Basket en Vidéo</li>
+          <li class="ok">Accès à Vie & Immédiat</li>
+          <li class="ok">Garantie de 7 jours</li>
+          <li class="no">Technique Individuelle en Vidéo (BONUS 1)</li>
+          <li class="no">Défense de Fer en Vidéo (BONUS 2)</li>
+          <li class="no">Circuits Physiques en Vidéo (BONUS 3)</li>
+        </ul>
+        <a href="#" id="btnBasico" class="price-cta basic">CHOISIR LE PLAN BASIQUE</a>
+      </div>
+      <div class="price-card popular">
+        <div class="popular-tag">LE PLUS POPULAIRE — MEILLEURE VALEUR</div>
+        <div class="price-name">Plan Complet</div>
+        <div class="price-save">ÉCONOMISEZ PLUS DE 40%</div>
+        <div class="price-num">
+          <span class="old">27 €</span>
+          <span class="new green">15,90 €</span>
+          <span class="unit">paiement unique</span>
+        </div>
+        <ul>
+          <li class="ok">+150 Exercices Complets en Vidéo</li>
+          <li class="ok">Accès à Vie & Immédiat</li>
+          <li class="ok">Garantie de 7 jours</li>
+          <li class="ok">Technique Individuelle en Vidéo (BONUS 1)</li>
+          <li class="ok">Défense de Fer en Vidéo (BONUS 2)</li>
+          <li class="ok">Circuits Physiques en Vidéo (BONUS 3)</li>
+        </ul>
+        <a href="https://pay.hotmart.com/S106635348M?off=n87nhs96&checkoutMode=10" class="price-cta full">OBTENIR L'ACCÈS COMPLET !</a>
+      </div>
+    </div>
+    <p class="pay-info">🔒 100% Secure Purchase · Garantie de 7 jours</p>
+    <p class="pay-info">La valeur finale sera facturée dans votre devise locale lors du paiement.</p>
+  </div>
+</section>
+
+
+
+<section class="section-alt">
+  <div class="container">
+    <div class="section-title"><span class="eyebrow">Achat Sans Risque</span></div>
+    <div class="guarantee">
+      <div class="shield">🛡</div>
+      <h3>Garantie Inconditionnelle de 7 Jours</h3>
+      <p>Testez l'accès à notre application pendant 7 jours entiers. Si vous n'êtes pas satisfait à 100%, nous vous remboursons sans poser de questions et sans tracas.</p>
+      <ul>
+        <li>Remboursement rapide et sans tracas</li>
+        <li>Aucune question ni justification requise</li>
+        <li>Votre satisfaction est notre priorité absolue</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container-sm">
+    <div class="section-title">
+      <span class="eyebrow">Des Questions ?</span>
+      <h2>Questions Fréquentes</h2>
+      <p>Tout ce que vous devez savoir avant de prendre la meilleure décision pour vos entraînements.</p>
+    </div>
+    <div class="faq">
+      <details><summary>❓ Comment fonctionne l'accès à l'application ?</summary><div class="answer">Vous recevrez un accès immédiat à l'application avec vos identifiants de connexion par e-mail. Vous pourrez consulter les vidéos depuis votre téléphone, tablette ou ordinateur dès que vous en aurez besoin.</div></details>
+      <details><summary>❓ Les routines sont-elles présentées en vidéo ?</summary><div class="answer">Oui. Tous les exercices sont présentés sous forme de vidéos interactives directement dans l'espace membres, accompagnés de guides tactiques et d'instructions étape par étape.</div></details>
+      <details><summary>❓ Est-ce adapté à tous les âges et tous les niveaux ?</summary><div class="answer">Oui. Les exercices sont divisés en catégories allant du niveau débutant à avancé, ce qui les rend idéaux pour l'entraînement des enfants, des juniors et des adultes.</div></details>
+      <details><summary>❓ Ai-je besoin d'une expérience de coaching préalable ?</summary><div class="answer">Non. Le matériel est organisé avec des explications vidéo claires et des démonstrations étape par étape pour faciliter une application immédiate dans vos entraînements.</div></details>
+      <details><summary>❓ L'accès est-il immédiat ?</summary><div class="answer">Oui. Une fois votre achat effectué, vous recevrez immédiatement vos identifiants de connexion pour commencer à utiliser l'application dès aujourd'hui.</div></details>
+    </div>
+    <div class="faq-cta">
+      <a class="cta" href="#precios">MES QUESTIONS ONT TROUVÉ LEUR RÉPONSE, JE VEUX ACHETER !</a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Entraînements de Basket. Tous droits réservés.</footer>
+
+<!-- Upsell Modal -->
+<div class="modal-overlay" id="upsell" role="dialog" aria-modal="true" aria-labelledby="upsellTitle">
+  <div class="modal">
+    <button class="modal-close" id="closeUpsell" aria-label="Close">×</button>
+    <h3 id="upsellTitle">🏀 ATTENDEZ ! Nous Avons Une Offre Unique Pour Vous</h3>
+    <p class="sub">Passez au Plan Complet maintenant pour seulement <b>9,90 €</b> (au lieu de 15,90 €)</p>
+    <ul>
+      <li>+150 Exercices de Basket en Vidéo (au lieu de 75)</li>
+      <li>Technique Individuelle en Vidéo (BONUS 1)</li>
+      <li>Défense de Fer en Vidéo (BONUS 2)</li>
+      <li>Circuits Physiques en Vidéo (BONUS 3)</li>
+      <li>Accès à vie & immédiat</li>
+    </ul>
+    <p class="urgency">⚡ Cette offre n'apparaît qu'une seule fois !</p>
+    <a class="btn-primary" href="https://pay.hotmart.com/S106635348M?off=i0pygmra&checkoutMode=10">Oui, je veux le Plan Complet pour 9,90 €</a>
+    <a class="btn-secondary" href="https://pay.hotmart.com/S106635348M?off=xcm1ybdr&checkoutMode=10">Non, continuer avec le Plan Basique</a>
+  </div>
+</div>
+
+<script>
+// Date in top bar
+(function(){
+  var d=new Date();
+  var options = { day: 'numeric', month: 'long' };
+  document.getElementById('todayDate').textContent=d.toLocaleDateString('fr-FR', options)+' '+d.getFullYear();
+})();
+
+// Set dynamic date in promo banner
+(function(){
+  var dateElement = document.getElementById('promo-date');
+  if (dateElement) {
+    var options = { day: 'numeric', month: 'long' };
+    var today = new Date().toLocaleDateString('fr-FR', options);
+    dateElement.textContent = today;
+  }
+})();
+
+// Countdown 15 min persistent per session
+(function(){
+  var KEY='bcto_deadline_en';
+  var deadline = 0;
+  try {
+    deadline = parseInt(sessionStorage.getItem(KEY)||'0',10);
+  } catch(e) {}
+  var now=Date.now();
+  if(!deadline||deadline<now){
+    deadline=now+15*60*1000;
+    try {
+      sessionStorage.setItem(KEY,deadline);
+    } catch(e) {}
+  }
+  var h=document.getElementById('t-h'),m=document.getElementById('t-m'),s=document.getElementById('t-s');
+  if(!h || !m || !s) return;
+  function tick(){
+    var diff=Math.max(0,deadline-Date.now());
+    var hh=Math.floor(diff/3600000), mm=Math.floor(diff%3600000/60000), ss=Math.floor(diff%60000/1000);
+    h.textContent=String(hh).padStart(2,'0');
+    m.textContent=String(mm).padStart(2,'0');
+    s.textContent=String(ss).padStart(2,'0');
+  }
+  tick();setInterval(tick,1000);
+})();
+
+// Upsell modal
+(function(){
+  var modal=document.getElementById('upsell');
+  var btn=document.getElementById('btnBasico');
+  var close=document.getElementById('closeUpsell');
+  function open(e){e&&e.preventDefault();modal.classList.add('show');document.body.style.overflow='hidden';}
+  function shut(){modal.classList.remove('show');document.body.style.overflow='';}
+  if(btn) btn.addEventListener('click',open);
+  if(close) close.addEventListener('click',shut);
+  modal.addEventListener('click',function(e){if(e.target===modal)shut();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')shut();});
+})();
+
+// Social Proof Notifications Loop (English names/cities)
+(function(){
+  const firstNames = ['Thomas', 'Lucas', 'Enzo', 'Guillaume', 'Nicolas', 'Léa', 'Manon', 'Mathis', 'Louis', 'Emma', 'Hugo', 'Arthur', 'Chloé', 'Camille', 'Julien', 'Sarah', 'Antoine', 'Maxime', 'Clément', 'Alexandre'];
+  const cities = ['Paris', 'Marseille', 'Lyon', 'Toulouse', 'Nice', 'Nantes', 'Montpellier', 'Strasbourg', 'Bordeaux', 'Lille', 'Rennes', 'Reims', 'Saint-Étienne', 'Le Havre', 'Toulon'];
+  const products = ['Plan Complet', 'Plan Basique'];
+  const times = ['à l\'instant', 'il y a 2 minutes', 'il y a 5 minutes', 'il y a 8 minutes', 'il y a 12 minutes', 'il y a 15 minutes'];
+  const emojis = ['🏀', '🔥', '✅', '⚡', '🎉'];
+
+  const container = document.createElement('div');
+  container.className = 'social-proof-container';
+  document.body.appendChild(container);
+
+  function showNotification() {
+    container.innerHTML = '';
+    const name = firstNames[Math.floor(Math.random() * firstNames.length)];
+    const city = cities[Math.floor(Math.random() * cities.length)];
+    const product = products[Math.random() > 0.35 ? 0 : 1];
+    const time = times[Math.floor(Math.random() * times.length)];
+    const emoji = emojis[Math.floor(Math.random() * emojis.length)];
+
+    const toast = document.createElement('div');
+    toast.className = 'social-proof-toast';
+    toast.innerHTML = `
+      <div class="toast-icon">${emoji}</div>
+      <div class="toast-content">
+        <p class="toast-title"><strong>${name}</strong> (${city})</p>
+        <p class="toast-body">A acheté le <strong>${product}</strong></p>
+        <span class="toast-time">${time}</span>
+      </div>
+    `;
+    container.appendChild(toast);
+    setTimeout(() => { toast.classList.add('show'); }, 100);
+    setTimeout(() => {
+      toast.classList.remove('show');
+      setTimeout(() => { toast.remove(); }, 500);
+    }, 5000);
+  }
+
+  setTimeout(showNotification, 6000);
+  function triggerNext() {
+    const delay = 18000 + Math.random() * 12000;
+    setTimeout(() => {
+      showNotification();
+      triggerNext();
+    }, delay);
+  }
+  triggerNext();
+})();
+
+
+// Ensure window.location.search is appended to all checkout links targeting pay.hotmart.com
+(function(){
+  function appendQueryParams() {
+    var search = window.location.search;
+    if (!search) return;
+    var links = document.querySelectorAll('a[href*="pay.hotmart.com"]');
+    links.forEach(function(link) {
+      try {
+        var url = new URL(link.href);
+        var currentParams = new URLSearchParams(url.search);
+        var pageParams = new URLSearchParams(search);
+        pageParams.forEach(function(value, key) {
+          currentParams.set(key, value);
+        });
+        url.search = currentParams.toString();
+        link.href = url.toString();
+      } catch(e) {}
+    });
+  }
+  appendQueryParams();
+  window.addEventListener('DOMContentLoaded', appendQueryParams);
+  setTimeout(appendQueryParams, 500);
+  setTimeout(appendQueryParams, 1500);
+})();
+</script>
+</body>
+</html>
