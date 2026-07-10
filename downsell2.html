@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+<script>
+  window.pixelId = "6a44675d97c4a7bff02cc5b9";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offre Spéciale - ProFuel AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #f8fafc;
+      --border: #e2e8f0;
+      --orange: #e84e1b;
+      --green: #22c55e;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --shadow: 0 20px 40px rgba(15, 23, 42, 0.06);
+      --font: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      line-height: 1.5;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* Warning Top Bar - Pure Danger Red (Slightly smaller) */
+    .warning-bar {
+      width: 100%;
+      background: #e60000;
+      border-bottom: 2px solid #b30000;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px 16px;
+      font-size: 11.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .pulse-badge {
+      width: 8px;
+      height: 8px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      display: inline-block;
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+      animation: pulse 1.6s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+      }
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+      }
+      100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+      }
+    }
+
+    /* Page Container */
+    .container {
+      width: 100%;
+      max-width: 780px;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      color: var(--green);
+      font-weight: 800;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 900;
+      line-height: 1.25;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+      color: var(--text);
+    }
+
+    h1 span.sub-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    h1 span.highlight {
+      color: var(--green);
+    }
+
+    .subhead {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto 32px auto;
+      line-height: 1.5;
+    }
+
+    /* Hook / Narrative Section */
+    .hook-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 30px;
+      margin-bottom: 40px;
+      text-align: left;
+      box-shadow: var(--shadow);
+    }
+
+    .hook-intro {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 16px;
+      line-height: 1.45;
+    }
+
+    .hook-list {
+      list-style-type: none;
+      margin-bottom: 24px;
+      padding-left: 5px;
+    }
+
+    .hook-list li {
+      font-size: 15px;
+      color: var(--green);
+      margin-bottom: 12px;
+      position: relative;
+      padding-left: 28px;
+      font-weight: 600;
+    }
+
+    .hook-list li::before {
+      content: "⚠️";
+      position: absolute;
+      left: 0;
+      top: -2px;
+      font-size: 16px;
+    }
+
+    .hook-conclusion {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+    }
+
+    /* Core benefits */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+
+    @media (min-width: 580px) {
+      .benefits-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .benefit-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      display: flex;
+      gap: 16px;
+      transition: all 0.2s ease;
+      box-shadow: var(--shadow);
+    }
+
+    .benefit-item:hover {
+      border-color: rgba(34, 197, 94, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .icon-box {
+      font-size: 28px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .benefit-content h3 {
+      font-size: 15px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+
+    .benefit-content p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* Bottom Info */
+    .offer-details {
+      color: var(--text-muted);
+      font-size: 13px;
+      max-width: 540px;
+      margin: 0 auto;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="warning-bar">
+    <span class="pulse-badge"></span>
+    ATTENTION ! Ne fermez pas cette page ou vous perdrez cette opportunité unique qui ne sera active ici que pour un temps limité.
+  </div>
+
+  <div class="container">
+    <span class="eyebrow">Dernière chance</span>
+    <h1>Attendez, ne laissez pas passer cette opportunité !<br>C'est votre dernière chance.</h1>
+    <p class="subhead">Je vous donne une opportunité de plus d'acquérir ProFuel AI de <span style="text-decoration: line-through; color: #ef4444; font-weight: 700; font-size: 1.25rem; margin-right: 4px;">37 €</span> pour seulement <span style="color: var(--green); font-size: 1.9rem; font-weight: 900; margin-left: 4px; vertical-align: middle;">27 €</span>.</p>
+
+    <!-- Price & Widget Section -->
+    <div style="margin-top: 10px; margin-bottom: 40px; text-align: center;">
+      <!-- HOTMART - Sales Funnel Widget -->
+      <div id="hotmart-sales-funnel"></div>
+      <script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+      <script>
+        checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel')
+      </script>
+    </div>
+
+    <!-- Hook/Narrative Section -->
+    <div class="hook-card">
+      <p class="hook-intro">Vous pouvez appliquer vos 150 meilleurs exercices du monde et dessiner le système le plus intelligent sur le tableau, mais si vos athlètes n'ont pas la nutrition adéquate :</p>
+      <ul class="hook-list">
+        <li>Ils se fatigueront en milieu de match, ruinant toute votre stratégie tactique dans les dernières minutes.</li>
+        <li>Ils manqueront de force explosive pour capter les rebonds, pénétrer en puissance et sauter mais haut.</li>
+        <li>Leur récupération musculaire sera lente, ce qui augmentera le nombre de blessures au cours de la saison.</li>
+      </ul>
+      <p class="hook-conclusion"><strong>ProFuel AI</strong> est votre bras droit en matière de préparation physique. Il calcule la dépense énergétique exacte de chaque poste sur le terrain (Meneur, Ailier ou Pivot) et génère des plans d'alimentation, d'hydratation et de supplémentation personnalisés que vous pouvez remettre directement à vos joueurs ou à leurs parents, élevant ainsi le niveau professionnel de votre travail.</p>
+    </div>
+
+    <!-- Benefits Grid -->
+    <div class="benefits-grid">
+      <div class="benefit-item">
+        <div class="icon-box">🥗</div>
+        <div class="benefit-content">
+          <h3>Plans Nutritionnels par Poste</h3>
+          <p>Générez des tableaux de calories et de macros précis pour les Meneurs (axés sur la vitesse/l'endurance) ou les Pivots (axés sur la force/l'explosivité).</p>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="icon-box">🧪</div>
+        <div class="benefit-content">
+          <h3>Guide de Supplémentation Sécurisé</h3>
+          <p>Guidez vos athlètes avec des dosages scientifiques et sûrs de Créatine, Bêta-Alanine et Protéine de Lactosérum (Whey) basés sur le poids de chacun.</p>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="icon-box">⚡</div>
+        <div class="benefit-content">
+          <h3>Carburant pour les Jours de Match</h3>
+          <p>Fournissez un guide étape par étape de ce que l'athlète doit manger 2 heures avant le match et comment s'hydrater pour maintenir son énergie dans le dernier quart-temps.</p>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="icon-box">💧</div>
+        <div class="benefit-content">
+          <h3>Protocole de Récupération Rapide</h3>
+          <p>Réduisez les douleurs post-entraînement et le risque de blessures de vos joueurs grâce à des routines automatisées de sommeil et de récupération musculaire.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="offer-details">
+      <p>💡 Utilisez les boutons générés par Hotmart ci-dessus ou ci-dessous pour ajouter ce complément à votre commande immédiatement pour seulement 27 €.</p>
+    </div>
+  </div>
+
+</body>
+</html>
