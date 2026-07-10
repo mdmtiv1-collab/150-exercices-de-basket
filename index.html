@@ -595,7 +595,7 @@ footer{padding:30px 16px;text-align:center;color:#94a3b8;font-size:13.5px;backgr
           <li class="no">Défense de Fer en Vidéo (BONUS 2)</li>
           <li class="no">Circuits Physiques en Vidéo (BONUS 3)</li>
         </ul>
-        <a href="#" id="btnBasico" class="price-cta basic">CHOISIR LE PLAN BASIQUE</a>
+        <a href="https://pay.hotmart.com/I106691794N?off=x0ds159b&checkoutMode=10" id="btnBasico" class="price-cta basic">CHOISIR LE PLAN BASIQUE</a>
       </div>
       <div class="price-card popular">
         <div class="popular-tag">LE PLUS POPULAIRE — MEILLEURE VALEUR</div>
@@ -614,7 +614,7 @@ footer{padding:30px 16px;text-align:center;color:#94a3b8;font-size:13.5px;backgr
           <li class="ok">Défense de Fer en Vidéo (BONUS 2)</li>
           <li class="ok">Circuits Physiques en Vidéo (BONUS 3)</li>
         </ul>
-        <a href="https://pay.hotmart.com/S106635348M?off=n87nhs96&checkoutMode=10" class="price-cta full">OBTENIR L'ACCÈS COMPLET !</a>
+        <a href="https://pay.hotmart.com/I106691794N?off=ubh5c29a&checkoutMode=10" class="price-cta full">OBTENIR L'ACCÈS COMPLET !</a>
       </div>
     </div>
     <p class="pay-info">🔒 100% Secure Purchase · Garantie de 7 jours</p>
@@ -676,8 +676,8 @@ footer{padding:30px 16px;text-align:center;color:#94a3b8;font-size:13.5px;backgr
       <li>Accès à vie & immédiat</li>
     </ul>
     <p class="urgency">⚡ Cette offre n'apparaît qu'une seule fois !</p>
-    <a class="btn-primary" href="https://pay.hotmart.com/S106635348M?off=i0pygmra&checkoutMode=10">Oui, je veux le Plan Complet pour 9,90 €</a>
-    <a class="btn-secondary" href="https://pay.hotmart.com/S106635348M?off=xcm1ybdr&checkoutMode=10">Non, continuer avec le Plan Basique</a>
+    <a class="btn-primary" href="https://pay.hotmart.com/I106691794N?off=f1ief5zw&checkoutMode=10">Oui, je veux le Plan Complet pour 9,90 €</a>
+    <a class="btn-secondary" href="https://pay.hotmart.com/I106691794N?off=x0ds159b&checkoutMode=10">Non, continuer avec le Plan Basique</a>
   </div>
 </div>
 
@@ -725,14 +725,11 @@ footer{padding:30px 16px;text-align:center;color:#94a3b8;font-size:13.5px;backgr
   tick();setInterval(tick,1000);
 })();
 
-// Upsell modal
+// Upsell modal (disabled - btnBasico now redirects directly to checkout)
 (function(){
   var modal=document.getElementById('upsell');
-  var btn=document.getElementById('btnBasico');
   var close=document.getElementById('closeUpsell');
-  function open(e){e&&e.preventDefault();modal.classList.add('show');document.body.style.overflow='hidden';}
   function shut(){modal.classList.remove('show');document.body.style.overflow='';}
-  if(btn) btn.addEventListener('click',open);
   if(close) close.addEventListener('click',shut);
   modal.addEventListener('click',function(e){if(e.target===modal)shut();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape')shut();});
